@@ -1,4 +1,4 @@
-# TAP Kube State Metrics
+# TAP Flux Kube State Metrics
 
 This is a proof of concept for monitoring TAP in prometheus using the custom resource support in kube state metrics.
 
