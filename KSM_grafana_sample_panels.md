@@ -37,4 +37,48 @@ With these resources and metrics defined I was able to create a simple yet very 
 
 First we can show the status of out package installations
 
-![Alt text](Dashboard_images/grafana-01.webp)
+![Dashboard Panel01](Dashboard_images/grafana-01.webp)
+
+We can then show the status of our workloads and some data about them, including which workloads are utilizing the live update and remote debugging features which is a great piece of data to see how your developers are utilizing the platform!
+
+![Dashboard Panel02](Dashboard_images/grafana-02.webp)
+
+![Dashboard Panel03](Dashboard_images/grafana-03.webp)
+
+We can then show details about our Flux Source Controller resources
+
+![Dashboard Panel04](Dashboard_images/grafana-04.webp)
+
+![Dashboard Panel05](Dashboard_images/grafana-05.webp)
+
+And then we can deep dive into TBS metrics including things like how many workloads are using different buildpacks!
+
+![Dashboard Panel06](Dashboard_images/grafana-06.webp)
+
+We can also show image scanning results and statistics
+
+![Dashboard Panel07](Dashboard_images/grafana-07.webp)
+
+We can also show details about Knative configurations as well
+
+![Dashboard Panel08](Dashboard_images/grafana-08.webp)
+
+
+We then can look into application accelerators and their status in our environment, as well as API descriptors which are registered
+
+![Dashboard Panel09](Dashboard_images/grafana-09.webp)
+
+CD is also important so we can also see the details and metrics about our deliverables
+
+![Dashboard Panel0](Dashboard_images/grafana-10.webp)
+
+And finally we can dig into the service bindings and Services Toolkit resources providing backing services to our workloads!
+
+![Dashboard Panel11](Dashboard_images/grafana-11.webp)
+
+![Dashboard Panel12](Dashboard_images/grafana-12.webp)
+
+As you can tell, with just this YAMl configuration, and without a single line of code, the options are endless!!
+
+While this is currently in a POC state, I believe it shows a true potential and already provides value when operating a TAP environment.
+
