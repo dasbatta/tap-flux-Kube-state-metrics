@@ -37,5 +37,4 @@ With these resources and metrics defined I was able to create a simple yet very 
 
 First we can show the status of out package installations
 
-![Alt text](.Dashboard_images/grafana-01.webp)
-
+![Alt text](Dashboard_images/grafana-01.webp)
